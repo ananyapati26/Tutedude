@@ -1,0 +1,26 @@
+[
+  {
+    "title": "C++",
+    "description": "Learn C++ for strong programming fundamentals.",
+    "viewCurriculumText": "View Curriculum",
+    "viewCurriculumLink": "#"
+  },
+  {
+    "title": "MERN Stack",
+    "description": "Master the MERN stack for high-demand projects.",
+    "viewCurriculumText": "View Curriculum",
+    "viewCurriculumLink": "#"
+  },
+  {
+    "title": "Data Structure & Algorithm",
+    "description": "Excel in Data Structures and Algorithms for interview success.",
+    "viewCurriculumText": "View Curriculum",
+    "viewCurriculumLink": "#"
+  },
+  {
+    "title": "Competitive Programming",
+    "description": "Excel in Data Structures and Algorithms for interview success.",
+    "viewCurriculumText": "View Curriculum",
+    "viewCurriculumLink": "#"
+  }
+]

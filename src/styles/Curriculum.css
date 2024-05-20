@@ -1,0 +1,118 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.course-curriculum {
+  background-color: #FCF5FE;
+  padding: 40px 20px;
+  text-align: left;
+  
+}
+
+.header {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+
+.badge {
+  display: inline-block;
+  background-color: #f3e8ff;
+  color: #992E9D;
+  padding: 15px 15px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin: 10px 0;
+}
+
+h1 span {
+  color: #ff6f61;
+  font-weight: 700;
+}
+
+.course-list {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 60px;
+}
+
+.course-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: "Poppins";
+}
+
+.course-item:last-child {
+  border-bottom: none;
+}
+
+.course-info h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0;
+}
+
+.course-info p {
+  color: #777;
+  margin: 5px 0 0;
+}
+
+.view-curriculum {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f3e8ff;
+  color: #9b51e0;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  font-family: "Poppins";
+}
+
+.view-curriculum:hover {
+  background-color: #e0c6f7;
+}
+
+@media (max-width: 768px) {
+  .course-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .view-curriculum {
+    margin-top: 10px;
+  }
+  .header .h1 .span{
+    text-align: center;
+  }
+  .course-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.new {
+  background: linear-gradient(92.04deg, #B73BBE 49.96%, #EBCB2E 99.23%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

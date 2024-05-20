@@ -1,0 +1,144 @@
+body {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.name a {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+
+  margin-left: -100px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  padding-right: 35px;
+}
+
+.login-btn, .signup-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-size: medium;
+}
+
+.login-btn {
+  background-color: #ffffff;
+  color: #992E9D;
+}
+
+.signup-btn {
+  background: linear-gradient(180deg, #B73BBE 0%, #992E9D 93.51%);
+  color: white;
+  width: Hug (105px)px;
+  height: Hug (48px)px;
+  padding: 12px 24px 12px 24px;
+  gap: 6px;
+  border-radius: 14px;
+  opacity: 0px;
+  background: linear-gradient(180deg, #B73BBE 0%, #992E9D 93.51%);
+  box-shadow: 0px 8px 24px -10px #992E9D80;
+}
+
+.secondary-navbar {
+  background-color: #3B3B3E;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 80px; /* Adjust based on the height of the main navbar */
+  z-index: 999;
+  padding-bottom: 1px;
+  font-family: "Poppins";
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #CFD0D2;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-links a:hover{
+  color: white;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #FFA50B;
+  transition: width 0.3s ease;
+  -webkit-transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+  left: 0;
+  background: #FFA50B;
+}
+
+@media (max-width: 768px) {
+  /* .auth-buttons {
+    display: none;
+  } */
+
+  .navbar-container {
+    justify-content: space-between;
+  }
+
+  .secondary-navbar {
+    top: 80px; /* Adjust based on the height of the main navbar */
+    font-size: x-small;
+  }
+
+  .name a{
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1380px){
+  .name a{
+    margin-left: 5px;
+  }
+}

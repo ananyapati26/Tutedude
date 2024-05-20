@@ -1,0 +1,210 @@
+.course-landing-page {
+  /* Removed center alignment properties */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: "Poppins";
+}
+
+.hero-section {
+  width: 100%;
+  background-color: white;
+  padding: 100px 0;
+  color: #fff;
+  margin-top: 40px;
+
+}
+
+.hero-container {
+  max-width: 1000px;
+  margin: 40px 0; /* Removed auto margin for left alignment */
+  text-align: left;
+}
+
+.hero-container .iit{
+  margin-left: 80px;
+  color: #595961;
+  margin-bottom: -5px;
+  font-family: "Poppins";
+  width: 250px;
+}
+
+.hero-text-wrapper {
+  padding-left: 80px;
+}
+
+.hero-text-wrapper h1 {
+  margin-top: 20px;
+  font-size: 66px;
+  margin-bottom: 20px;
+  color: #595961;
+}
+
+.hero-text-wrapper p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: #434347;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.hero-buttons button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-buttons button:nth-child(1) {
+  background: linear-gradient(180deg, #B73BBE 0%, #992E9D 93.51%);
+  box-shadow: 0px 8px 48px -10px #992E9D80;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.hero-buttons button:nth-child(2) {
+  color: #992E9D;
+  background-color: white;
+  width: Hug (175px)px;
+  height: Hug (75px)px;
+  gap: 6px;
+  border-radius: 16px 0px 0px 0px;
+  opacity: 0px;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+
+
+.course-hero-container{
+  display: flex;
+  gap: 15px;
+}
+
+.course-hero-container button{
+  padding: 15px;
+  background-color: #FFF4C5;
+  font-family: "Montserrat";
+  color: #BB5302;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+}
+
+
+
+/* Existing styles from previous responses (course-landing-page, etc.) */
+
+.statistics-section {
+  margin-top: -100px;
+  background-color: #f5f5f5; /* Light gray background */
+  display: flex; /* Arrange statistics cards horizontally */
+  justify-content: space-between; /* Evenly distribute cards */
+}
+
+.statistics-container {
+  width: 100%; /* Container width spans the entire section */
+  display: flex;
+  flex-wrap: wrap; /* Wrap cards to multiple lines if needed */
+  justify-content: center; /* Center cards horizontally */
+}
+
+.stat-card {
+  background-color: #fff; /* White background for cards */
+  border-radius: 5px; /* Rounded corners */
+  padding: 30px 20px; /* Padding for content */
+  margin: 10px; /* Spacing between cards */
+  text-align: center; /* Center text content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.stat-card:hover {
+  transform: translateY(-5px); /* Slight upward movement on hover */
+}
+
+.stat-card span {
+  font-size: 48px; /* Large font size for numbers */
+  font-weight: bold; /* Bold text for emphasis */
+  color: #333; /* Dark gray color */
+  margin-bottom: 10px; /* Bottom margin for spacing */
+}
+
+.stat-card p {
+  font-size: 18px; /* Smaller font size for text */
+  color: #777; /* Lighter gray color */
+  line-height: 1.5; /* Adjust line spacing for readability */
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+    margin-bottom: -80px;
+  }
+  .hero-text-wrapper{
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+  .hero-text-wrapper h1{
+    font-size: 35px;
+  }
+  .course-hero-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    text-align: center;
+  }
+  .course-hero-container button {
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Hide overflowing content */
+    width: fit-content; /* Dynamic width based on content */
+  }
+  .hero-container .iit{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    width: 300px;
+  }
+  .statistics-section {
+    display: none; /* Hide the section on mobile screens */
+  }
+  .iit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.full-width-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .full-width-image {
+    display: none;
+  }
+}
+
+
+
