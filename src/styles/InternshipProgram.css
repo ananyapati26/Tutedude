@@ -41,13 +41,13 @@
   -webkit-text-fill-color: transparent;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1292px) {
   .program img.map-desktop {
     display: block;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1292px) {
   .program img.map-mobile {
     display: block;
     width: 345px;
