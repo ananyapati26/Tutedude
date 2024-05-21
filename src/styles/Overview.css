@@ -101,7 +101,10 @@
   border-radius: 30px;
 }
 
-
+.buttons{
+  display: flex;
+  gap: 25px;
+}
 
 /* Existing styles from previous responses (course-landing-page, etc.) */
 
@@ -145,7 +148,32 @@
   color: #777; /* Lighter gray color */
   line-height: 1.5; /* Adjust line spacing for readability */
 }
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn1{
+  width: 220px;
+  height: 50px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 40px;
+  background-color: #FFF4C5;
+  font-family: "Montserrat";
+  color: #BB5302;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  
+}
+.contentbtn{
+  font-size: 15px;
+  
 
+}
 
 
 

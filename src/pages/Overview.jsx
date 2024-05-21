@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Overview.css';
+import imgicon from "../assets/award-star.svg"
 
 const Overview = () => {
   return (
@@ -21,12 +22,20 @@ const Overview = () => {
             </p>
             
             <div class="extra" style={{marginTop:"-10px", fontFamily:""}}>
-                  <div class="course-hero">
+                  {/* <div class="course-hero">
                     <div class="course-hero-container">
-                      <button>Personal Mentorship</button>
+                      <button className='btn1'><img src={imgicon}></img><p className='content'>Personal Mentorship</p></button>
                       <button>Internship Assistance</button>
                       <button>Industry Certified Courses</button>
                     </div>
+                  </div> */}
+                  <div className='buttons'>
+                    <button className='btn1'><img src={imgicon}></img><div className='contentbtn'>Personal Mentorship</div></button>
+                    <button className='btn1'><img src={imgicon}></img><div className='contentbtn'>Internship Assistance</div></button>
+                    <button className='btn1'><img src={imgicon}></img><div className='contentbtn'>Industry Certified Courses</div></button>
+
+
+
                   </div>
                 </div>
 
