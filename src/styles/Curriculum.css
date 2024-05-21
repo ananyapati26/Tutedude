@@ -95,6 +95,7 @@ h1 span {
   .course-item {
     flex-direction: column;
     align-items: flex-start;
+    /* justify-content: flex-start; */
   }
 
   .view-curriculum {
@@ -107,7 +108,7 @@ h1 span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
   }
 }
 
